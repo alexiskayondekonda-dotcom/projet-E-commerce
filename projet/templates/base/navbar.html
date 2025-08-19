@@ -1,0 +1,22 @@
+{% load static %}
+<! --Navbar-->
+<nav class="navbar navbar-expand-lg navabar-dark bg-light">
+   <img src="{% static 'images/issnt.webp' %}" alt="Logo de l'ISSNT" width="200" height="200" class="img-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        <a class="nav-link" href="#">produit</a>
+        <a class="nav-link" href="#">client</a>
+        <a class="nav-link" href="#">commande</a>
+         
+      </div>
+    </div>
+  </div>
+   <span>Salut, {{request.user}} </span>
+  <span><a href="{%url 'quitter' %}">Quitter</a></span>
+</nav>
+<! --Navbar-->
