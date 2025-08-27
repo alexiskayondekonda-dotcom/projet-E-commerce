@@ -11,3 +11,14 @@ staticfiles/
 media/ 
 *.log 
 *.cache 
+*.pyc 
+*.pyo 
+*.pyd 
+__pycache__/ 
+*.log 
+db.sqlite3 
+env/ 
+venv/ 
+.vscode/ 
+*.DS_Store 
+*.idea/ 
